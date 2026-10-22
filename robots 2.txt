@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hubi18lewandowski-cmyk.github.io/full-time/sitemap.xml
