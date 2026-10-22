@@ -1,4 +1,34 @@
-<!doctype html><html lang="pl"><head><title>Full Time – wyniki na żywo: piłka nożna, NBA, F1, tenis</title><meta name="description" content="Full Time: wyniki na żywo i po meczu – Liga Mistrzów, Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Ekstraklasa, NBA, F1 i tenis. Tabele, kalendarz, typer i Polacy w sporcie."><link rel="canonical" href="https://hubi18lewandowski-cmyk.github.io/full-time/"><meta name="robots" content="index,follow"><meta property="og:title" content="Full Time – wyniki na żywo"><meta property="og:type" content="website"><meta property="og:url" content="https://hubi18lewandowski-cmyk.github.io/full-time/"><meta property="og:description" content="Wyniki, tabele i kalendarz: piłka nożna, NBA, F1, tenis."><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Full Time – wyniki na żywo: piłka nożna, NBA, F1, tenis, skoki, transfery</title>
+<meta name="description" content="Full Time: wyniki na żywo i po meczu – Liga Mistrzów, Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Ekstraklasa, NBA, F1, tenis, skoki narciarskie i siatkówka. Transfery, tabele, kalendarz, gdzie oglądać w Polsce i typer.">
+<meta name="keywords" content="wyniki na żywo, Liga Mistrzów, Premier League, Ekstraklasa, transfery, F1, NBA, tenis, skoki narciarskie, siatkówka, gdzie oglądać, live scores">
+<meta name="theme-color" content="#07090f">
+<meta name="color-scheme" content="dark light">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Full Time">
+<link rel="canonical" href="https://hubi18lewandowski-cmyk.github.io/full-time/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hubi18lewandowski-cmyk.github.io/full-time/">
+<meta property="og:title" content="Full Time – wyniki na żywo, transfery i gdzie oglądać">
+<meta property="og:description" content="Wyniki, transfery, tabele i kalendarz: piłka nożna, NBA, F1, tenis, skoki i siatkówka. Aktualizowane co godzinę.">
+<meta property="og:image" content="https://hubi18lewandowski-cmyk.github.io/full-time/icon-512.png">
+<meta name="twitter:card" content="summary">
+<style>[hidden]:not([hidden=until-found i]){display:none!important}html,body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+<noscript><h1>Full Time</h1><p>Football, NBA, F1, tennis, ski jumping and Polish volleyball: last night's scores, live results, transfers and where to watch in Poland. Turn on JavaScript to see the scores.</p></noscript>
+
+<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
@@ -1200,6 +1230,83 @@ html[data-theme="light"] .pill.final{background:var(--bg-3)}
 html[data-theme="light"] .cev.big{color:#7a5300}
 html[data-theme="light"] .winter-snow{opacity:.9}
 html[data-theme="light"] .drawer,html[data-theme="light"] .cp,html[data-theme="light"] .pk{background:color-mix(in srgb,#0d1220 35%,transparent)}
+
+/* ===================== DEVICE LAYOUTS ===================== */
+.dv-sidebar,.dv-detail{display:none}
+
+/* ---------- PHONE: tab bar at the bottom ---------- */
+html[data-device="phone"] body{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+html[data-device="phone"] .switch{position:fixed;top:auto;bottom:0;left:0;right:0;margin:0;z-index:40;padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px));border-bottom:0;border-top:1px solid var(--line);background:color-mix(in srgb,var(--bg-2) 92%,transparent);box-shadow:0 -10px 30px rgba(0,0,0,.25)}
+html[data-device="phone"] .switch-in{grid-template-columns:minmax(0,1fr)}
+html[data-device="phone"] .switch .arrow{display:none}
+html[data-device="phone"] .tabs{justify-content:flex-start;gap:2px;scroll-snap-type:x proximity}
+html[data-device="phone"] .tab{flex-direction:column;gap:2px;padding:7px 10px;min-width:64px;border-radius:14px;font-size:10.5px;scroll-snap-align:center}
+html[data-device="phone"] .tab .ic{font-size:21px}
+html[data-device="phone"] .tab .lbl{display:block!important;max-width:72px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+html[data-device="phone"] .tab .new{position:absolute;margin:0;transform:translate(16px,-4px) scale(.85)}
+html[data-device="phone"] .tab{position:relative}
+html[data-device="phone"] .fo-pill{bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+html[data-device="phone"] .top{padding-block:14px 4px}
+html[data-device="phone"] .upd span:first-child{display:none}
+html[data-device="phone"] .card-btn,html[data-device="phone"] .nc,html[data-device="phone"] .hm-card,html[data-device="phone"] .tr-card,html[data-device="phone"] .lg-h,html[data-device="phone"] .st-ring{transition:transform .15s ease}
+html[data-device="phone"] .card-btn:active,html[data-device="phone"] .nc:active,html[data-device="phone"] .hm-card:active,html[data-device="phone"] .tr-card:active,html[data-device="phone"] .lg-h:active{transform:scale(.97)}
+html[data-device="phone"] .st-ring:active .av{transform:scale(.9)}
+html[data-device="phone"] .hm-sec,html[data-device="phone"] .hm-final{padding-top:72px}
+html[data-device="phone"] .giant{font-size:clamp(70px,24vw,120px)}
+
+/* ---------- TABLET: comfortable sizes, list + details side by side in landscape ---------- */
+html[data-device="tablet"] .tab{padding:11px 18px;font-size:15px}
+html[data-device="tablet"] .card-btn{padding:18px 20px}
+html[data-device="tablet"] .card-btn:active,html[data-device="tablet"] .nc:active,html[data-device="tablet"] .hm-card:active{transform:scale(.98)}
+html.dv-split #main{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,38%);gap:24px;align-items:start}
+html.dv-split #main>.hero{grid-column:1/-1}
+html.dv-split #main>#body{min-width:0}
+html.dv-split #main #body .grid{grid-template-columns:minmax(0,1fr)}
+html.dv-split .dv-detail{display:block;position:sticky;top:84px;max-height:calc(100vh - 100px);overflow:auto;border-radius:24px;border:1px solid var(--line);background:var(--bg-2);margin-top:26px;scrollbar-width:thin}
+html.dv-split #main:not(:has(#body .card)){grid-template-columns:minmax(0,1fr)}
+html.dv-split #main:not(:has(#body .card)) .dv-detail{display:none}
+.dv-empty{display:grid;place-items:center;gap:10px;text-align:center;padding:60px 26px;color:var(--muted)}
+.dv-empty span{font-size:40px;animation:dvNudge 1.6s ease-in-out infinite}
+@keyframes dvNudge{50%{transform:translateX(-8px)}}
+.dv-panel{position:relative;padding:18px 18px 22px}
+.dv-x{position:absolute;top:12px;right:12px;z-index:2}
+.dv-head{display:grid;gap:12px;padding-right:44px}
+.dv-head .teams .tm b{font-size:30px}
+.dv-head .score{font-size:46px}
+.dv-more{display:grid;gap:16px;margin-top:16px;padding-top:16px;border-top:1px dashed var(--line)}
+html.dv-split .card.dv-sel{border-color:var(--acc);background:var(--bg-3);box-shadow:inset 4px 0 0 var(--acc)}
+html.dv-split .card .hint{display:none}
+
+/* ---------- DESKTOP: side menu ---------- */
+html.dv-side .dv-sidebar{display:flex;flex-direction:column;gap:4px;position:fixed;left:0;top:0;bottom:0;width:236px;z-index:35;padding:22px 14px;background:color-mix(in srgb,var(--bg-2) 94%,transparent);border-right:1px solid var(--line);overflow-y:auto;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+html.dv-side body{padding-left:262px}
+html.dv-side .top .logo{visibility:hidden}
+html.dv-side #burger,html.dv-side #gear{display:none}
+.dv-logo{margin:0 6px 18px;font-size:24px}
+.dv-item{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;padding:9px 10px;border-radius:12px;color:var(--muted);font-size:14px;transition:background .2s,color .2s,transform .2s}
+.dv-item .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--bg-3);font-size:17px}
+.dv-item b{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dv-item:hover{background:var(--bg-3);color:var(--fg);transform:translateX(3px)}
+.dv-item.on{background:color-mix(in srgb,var(--acc) 14%,transparent);color:var(--fg)}
+.dv-item.on .ic{background:var(--acc)}
+.dv-item:focus-visible{outline:2px solid var(--acc)}
+.dv-set{margin-top:auto}
+
+/* ---------- DESKTOP: hover spotlight (hovered card grows, the others step back) ---------- */
+html.dv-hover :is(.grid,.news-row,.ns-grid,.tr-grid,.hm-poles,.hm-clubs,.cp-grid,.vgrid,.hm-two,.fo-facts,.leagues,.lg-badges,.hm-tl,.ns-fx,.qz-modes,.wcol)>*{transition:transform .35s cubic-bezier(.2,.8,.2,1),opacity .35s,filter .35s,box-shadow .35s}
+html.dv-hover :is(.grid,.news-row,.ns-grid,.tr-grid,.hm-poles,.hm-clubs,.cp-grid,.vgrid,.hm-two,.fo-facts,.lg-badges,.qz-modes):has(>*:hover)>*:not(:hover){transform:scale(.95);opacity:.55;filter:saturate(.6) blur(.4px)}
+html.dv-hover :is(.grid,.news-row,.ns-grid,.tr-grid,.hm-poles,.hm-clubs,.cp-grid,.vgrid,.hm-two,.fo-facts,.lg-badges,.qz-modes)>*:hover{transform:scale(1.045);z-index:3;position:relative;box-shadow:0 22px 50px rgba(0,0,0,.35),0 0 0 1px color-mix(in srgb,var(--acc) 45%,transparent)}
+html.dv-hover :is(.leagues,.hm-tl,.ns-fx):has(>*:hover)>*:not(:hover){transform:scale(.985);opacity:.6;filter:saturate(.6)}
+html.dv-hover :is(.leagues,.hm-tl,.ns-fx)>*:hover{transform:scale(1.015);z-index:3;box-shadow:0 18px 40px rgba(0,0,0,.3)}
+html.dv-hover .leagues>.lg.open,html.dv-hover .leagues:has(>.lg.open)>*{transform:none!important;opacity:1!important;filter:none!important}
+html.dv-hover .grid>.card.open{transform:none!important}
+html.dv-hover .news-row{padding-block:14px 18px;margin-block:-8px}
+html.dv-hover .st-ring .av,html.dv-hover .tab{transition:transform .18s ease-out}
+html[data-theme="light"].dv-hover :is(.grid,.news-row,.ns-grid,.tr-grid,.hm-poles,.hm-clubs,.cp-grid,.vgrid,.hm-two,.fo-facts,.lg-badges,.qz-modes)>*:hover{box-shadow:0 22px 50px rgba(13,18,32,.16),0 0 0 1px color-mix(in srgb,var(--acc) 45%,transparent)}
+@media (prefers-reduced-motion:reduce){html.dv-hover *{transform:none!important;filter:none!important}}
+html.dv-hover .news-row{padding:14px 12px 18px;margin:-8px -12px 0}
+html.dv-hover .st-ring .av{transform-origin:50% 100%}
+html.dv-hover .st-rings{padding-top:22px;margin-top:-18px}
 
 </style>
 <div class="glow" aria-hidden="true"></div>
@@ -3990,9 +4097,107 @@ html[data-theme="light"] .drawer,html[data-theme="light"] .cp,html[data-theme="l
   document.addEventListener('keydown', e => { if(e.key === 'Escape' && !setEl.hidden){ e.stopPropagation(); closeSettings(); } }, true);
   $('#lang').addEventListener('change', () => { gear.setAttribute('aria-label', t('set')); });
 
+  // =====================================================================
+  // DEVICE LAYOUTS — phone / tablet / desktop, picked automatically
+  // =====================================================================
+  const DV_T = {
+    en:{dvHome:'Home', dvDetail:'Tap a match to see the details here.', dvClose:'Close details'},
+    pl:{dvHome:'Start', dvDetail:'Dotknij meczu, żeby zobaczyć tutaj szczegóły.', dvClose:'Zamknij szczegóły'},
+    de:{dvHome:'Start', dvDetail:'Tippe auf ein Spiel, um hier die Details zu sehen.', dvClose:'Details schließen'},
+    fr:{dvHome:'Accueil', dvDetail:'Touchez un match pour voir les détails ici.', dvClose:'Fermer les détails'},
+    es:{dvHome:'Inicio', dvDetail:'Toca un partido para ver aquí los detalles.', dvClose:'Cerrar detalles'},
+    it:{dvHome:'Home', dvDetail:'Tocca una partita per vedere qui i dettagli.', dvClose:'Chiudi dettagli'},
+    pt:{dvHome:'Início', dvDetail:'Toca num jogo para ver aqui os detalhes.', dvClose:'Fechar detalhes'},
+    zh:{dvHome:'首页', dvDetail:'点击一场比赛，在这里查看详情。', dvClose:'关闭详情'}
+  };
+  for(const k of new Set([...Object.keys(T), ...Object.keys(DV_T)])) T[k] = Object.assign(T[k] || {}, DV_T[k] || DV_T.en);
+  const isIPad = () => /iPad/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const isTouch = () => matchMedia('(pointer: coarse)').matches || navigator.maxTouchPoints > 0 || isIPad();
+  function detectDevice(){
+    const w = innerWidth;
+    if(w < 700) return 'phone';
+    if(isTouch() && !matchMedia('(pointer: fine)').matches) return 'tablet';
+    if(isIPad()) return 'tablet';
+    return 'desktop';
+  }
+  let device = null;
+  function applyDevice(){
+    const d = detectDevice(), h = document.documentElement;
+    const wide = innerWidth;
+    h.dataset.device = d;
+    h.classList.toggle('dv-split', d === 'tablet' && wide >= 900);
+    h.classList.toggle('dv-side', d === 'desktop' && wide >= 1280);
+    h.classList.toggle('dv-hover', d === 'desktop' && matchMedia('(hover: hover)').matches);
+    if(d !== device){ device = d; paintSide(); }
+    if(!h.classList.contains('dv-split')) closeDetail(true);
+  }
+  // ---------- desktop: side menu ----------
+  const side = document.createElement('nav'); side.className = 'dv-sidebar'; side.setAttribute('aria-label', 'Menu'); document.body.appendChild(side);
+  function paintSide(){
+    side.innerHTML = `<div class="logo dv-logo"><i aria-hidden="true"></i>Full Time</div>
+      <button type="button" class="dv-item${curView ? '' : ' on'}" data-dvhome><span class="ic">🏠</span><b>${esc(t('dvHome'))}</b></button>
+      ${MENU.map(([k, ic, tt]) => `<button type="button" class="dv-item${curView === k ? ' on' : ''}" data-view="${k}"><span class="ic">${ic}</span><b>${esc(t(tt))}</b></button>`).join('')}
+      <button type="button" class="dv-item dv-set" data-dvset><span class="ic">⚙️</span><b>${esc(t('set'))}</b></button>`;
+  }
+  side.addEventListener('click', e => {
+    if(e.target.closest('[data-dvhome]')){ if(curView) closeView(); scrollTo({top:0, behavior:reduce ? 'auto' : 'smooth'}); paintSide(); return; }
+    if(e.target.closest('[data-dvset]')){ const g = $('#gear'); if(g) g.click(); }
+  });
+  const _openViewDv = openView, _closeViewDv = closeView;
+  openView = function(k){ _openViewDv(k); paintSide(); closeDetail(true); };
+  closeView = function(){ _closeViewDv(); paintSide(); };
+  $('#lang').addEventListener('change', () => { paintSide(); if(detailId) fillDetail(); });
+  // ---------- tablet: list on the left, details on the right ----------
+  const det = document.createElement('aside'); det.className = 'dv-detail home-part'; det.setAttribute('aria-live', 'polite');
+  $('#main').appendChild(det);
+  let detailId = null;
+  function paintEmpty(){ det.innerHTML = `<div class="dv-empty"><span>👈</span><p>${esc(t('dvDetail'))}</p></div>`; }
+  paintEmpty();
+  function fillDetail(){
+    const card = detailId && document.getElementById('ev-' + detailId);
+    if(!card){ paintEmpty(); return; }
+    document.querySelectorAll('.card.dv-sel').forEach(c => c.classList.remove('dv-sel'));
+    card.classList.add('dv-sel');
+    const head = card.querySelector('.card-btn').innerHTML, more = card.querySelector('.more-in');
+    det.innerHTML = `<div class="dv-panel" style="--lc:${getComputedStyle(card).getPropertyValue('--lc') || 'var(--acc)'}"><button type="button" class="pk-x dv-x" data-dvclose aria-label="${esc(t('dvClose'))}">×</button><div class="dv-head">${head}</div>${more ? `<div class="dv-more">${more.innerHTML}</div>` : ''}</div>`;
+    const hint = det.querySelector('.hint'); if(hint) hint.remove();
+    det.querySelector('.dv-panel').animate([{opacity:0, transform:'translateX(24px)'}, {opacity:1, transform:'none'}], {duration:reduce ? 0 : 320, easing:'cubic-bezier(.2,.8,.2,1)'});
+  }
+  function closeDetail(silent){ detailId = null; document.querySelectorAll('.card.dv-sel').forEach(c => c.classList.remove('dv-sel')); if(!silent || det.querySelector('.dv-panel')) paintEmpty(); }
+  document.addEventListener('click', e => {
+    if(e.target.closest('[data-dvclose]')){ closeDetail(); return; }
+    if(!document.documentElement.classList.contains('dv-split')) return;
+    const cb = e.target.closest('.card-btn'); if(!cb || cb.closest('.dv-detail')) return;
+    const card = cb.closest('.card'); if(!card || !card.dataset.id) return;
+    e.stopImmediatePropagation(); e.preventDefault();
+    detailId = card.dataset.id; fillDetail();
+  }, true);
+  // keep the panel in sync when the list re-renders (favourites, language, live data)
+  new MutationObserver(() => { if(detailId){ const c = document.getElementById('ev-' + detailId); if(c && !c.classList.contains('dv-sel')) fillDetail(); } }).observe($('#body'), {childList:true, subtree:true});
+  // ---------- desktop: Dock-style magnify for story rings and sport tabs ----------
+  function dock(container, itemSel, targetSel, max, reach){
+    if(!container) return;
+    container.addEventListener('mousemove', e => {
+      if(!document.documentElement.classList.contains('dv-hover') || reduce) return;
+      container.querySelectorAll(itemSel).forEach(it => {
+        const r = it.getBoundingClientRect(), cx = r.left + r.width / 2, d = Math.abs(e.clientX - cx);
+        const s = 1 + max * Math.max(0, 1 - d / reach);
+        const tg = targetSel ? it.querySelector(targetSel) : it; if(tg){ tg.style.transform = `scale(${s.toFixed(3)})`; tg.style.zIndex = s > 1.05 ? 2 : ''; }
+      });
+    });
+    container.addEventListener('mouseleave', () => container.querySelectorAll(itemSel).forEach(it => { const tg = targetSel ? it.querySelector(targetSel) : it; if(tg){ tg.style.transform = ''; tg.style.zIndex = ''; } }));
+  }
+  dock($('#st-rings'), '.st-ring', '.av', .38, 140);
+  dock(tabs, '.tab', null, .22, 150);
+  let dvT = 0; addEventListener('resize', () => { clearTimeout(dvT); dvT = setTimeout(applyDevice, 150); });
+  addEventListener('orientationchange', () => setTimeout(applyDevice, 300));
+  applyDevice();
+
   applyStatic(); tickMidnight(); renderMine(); render(cur, false);
   setInterval(() => { tickMidnight(); tickCountdowns(); }, 1000);
 })();
 </script>
 
-</body></html>
+<script>if('serviceWorker' in navigator && location.protocol==='https:'){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}</script>
+</body>
+</html>
